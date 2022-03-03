@@ -1,0 +1,148 @@
+.bookmark{
+    float: left;
+    background-color: #F88379;
+    height: 900px;
+    width: 300px;
+    box-sizing: border-box;
+    margin: 15px 15px 15px 15px;
+    border: solid 1px black;
+    border-radius: 25px;
+}
+
+.dp{
+    position: relative;
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    box-sizing: border-box;
+    height: 25%;
+    margin: 0px;
+}
+
+.name {
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    bottom: 8px;
+    left: 16px;
+    box-sizing: border-box;
+}
+
+img { 
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+.profile {
+    border-style: solid;
+    border-width: 0px 0px 2px 0px ;
+    margin: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.icon{
+    float: left;
+    border: solid;
+    border-width: 3px;
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+}
+
+
+
+.cp{
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    box-sizing: border-box;
+    margin: 15px;
+    padding: 10px;
+}
+
+
+
+.mail{
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    box-sizing: border-box;
+    margin: 15px;
+    padding: 10px;
+}
+
+.l-desc {
+    display: inline-block;
+    text-align: left;
+    color: white;
+    margin: 15px 15px 15px 15px;
+    box-sizing: border-box;
+}
+
+.bookcard {
+    float: left;
+    background-color: white;
+    height: 300px;
+    width: 850px;
+    margin: 15px 15px 15px 15px;
+    box-sizing: border-box;
+    border: solid 1px black;
+    border-radius: 25px;
+}
+
+.b-icon {
+    float: left;
+    background-color: #F88379;
+    height: 50px;
+    width: 50px;
+    margin: 25px 30px 100% 30px;
+    box-sizing: border-box;
+}
+
+.bc-card{
+    float: left;
+    border: solid;
+    border-width: 0px 0px 3px 0px;
+    box-sizing: border-box;
+    margin: 0px 10px 0px 0px;
+    padding: 10px 10px 10px 10px;
+    width: 200px;
+    height: auto;
+}
+
+.title {
+    font-weight: bold;
+    line-height: 1;
+    box-sizing: border-box;
+}
+.date{
+    color: #899499;
+    line-height: 1;
+    box-sizing: border-box;
+}
+
+.desc{
+    line-height: 1;
+    box-sizing: border-box;
+} 
+
+
+.card {
+    float: left;
+    background-color: white;
+    box-sizing: border-box;
+    height: 300px;
+    width: 410px;
+    margin: 15px 15px 15px 15px;
+    border: solid 1px black;
+    border-radius: 25px;
+}
+  
+ul {
+    list-style: none;
+    margin: 10px 20px 20px 45px;
+}
+
+table {
+    border-spacing: 2px;
+}

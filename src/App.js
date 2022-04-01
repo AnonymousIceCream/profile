@@ -1,12 +1,17 @@
 import formal from "./img/dp.jpg";
 import profile from "./img/profile.png";
+import cert from "./img/cert.png";
 import contact from "./img/contact.png";
 import mail from "./img/mail.png";
 import exp from "./img/exp.png";
 import educ from "./img/educ.png";
 import skill from "./img/skill.png";
 import proj from "./img/proj.png";
+import org from "./img/org.png";
+import Bookcard from "./Bookcard";
+import Bookmarkcard from "./Bookmarkcard";
 import "./App.css";
+
 function App() {
   return(
     <div>
@@ -18,31 +23,44 @@ function App() {
             <img class ="icon" src={profile} alt ="Anonymous"/>
             <div class="l-desc">4th Year IT Student</div>
           </div>
-        
 
-          <div class="cp">
-            <img class ="icon" src={contact} alt ="Phone"/>
-            <div class="l-desc">+639609116829</div>
-          </div>
-          <div class="mail">
-            <img class ="icon" src={mail} alt ="Phone"/>
-            <div class="l-desc">icalandria@yahoo.com</div>
-          </div>
+          <Bookmarkcard
+            icon = {contact}
+            text = {'+639609116829'}
+          >
+          </Bookmarkcard>
+
+          <Bookmarkcard
+            icon={mail}
+            text={'icalandria@yahoo.com'}
+          >
+          </Bookmarkcard>
+
+          <Bookmarkcard
+            icon={org}
+            text={'CICS'}
+          >
+          </Bookmarkcard>
+
+          <Bookmarkcard
+            icon={cert}
+            text={'PhilNITS IT Certification'}
+          >
+          </Bookmarkcard>
+
+
         </div>
       </div>
 
-      <div class="bookcard">
-        <div class="b-icon"><img src={exp} alt ="EXP"/></div> 
-        <h2>Experience</h2>
-        <div class="bc-card">
-          <div class="title">Infant Jesus Academy Antipolo | Immersion Student</div>
-          <div class="desc">Converted paper documents into digital files. Organized and categorized digital files. Learned basic troubleshooting for Linux.</div>
-        </div>
-        <div class="bc-card">
-          <div class="title">City Disaster Risk Reduction Management Office - Antipolo City | Immersion Student</div>
-          <div class="desc">Converted paper documents from 2015 to 2018 into digital files. Organized backlog of digital files starting from 2015.</div>
-        </div>
-      </div>
+      <Bookcard
+        pic={exp}
+        name={'Experience'}
+        titlea={'Infant Jesus Academy Antipolo | Immersion Student'}
+        desca={'Converted paper documents into digital files. Organized and categorized digital files. Learned basic troubleshooting for Linux'}
+        titleb={'City Disaster Risk Reduction Management Office - Antipolo City | Immersion Student'}
+        descb={'Converted paper documents from 2015 to 2018 into digital files. Organized backlog of digital files starting from 2015'}
+      >
+      </Bookcard>
 
       <div class="bookcard">
         <div class="b-icon"><img src={educ} alt ="Education"/></div> 

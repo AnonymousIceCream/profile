@@ -1,7 +1,7 @@
 .bookmark{
     float: left;
     background-color: #F88379;
-    height: 900px;
+    height: 700px;
     width: 300px;
     box-sizing: border-box;
     margin: 15px 15px 15px 15px;
@@ -37,8 +37,8 @@ img {
 .profile {
     border-style: solid;
     border-width: 0px 0px 2px 0px ;
-    margin: 15px;
-    padding: 10px;
+    margin: 10px;
+    padding: 5px;
     box-sizing: border-box;
 }
 
@@ -53,23 +53,15 @@ img {
 
 
 
-.cp{
+.bookmard-card{
     border-style: solid;
     border-width: 0px 0px 2px 0px;
     box-sizing: border-box;
-    margin: 15px;
-    padding: 10px;
+    margin: 10px;
+    padding: 5px;
 }
 
 
-
-.mail{
-    border-style: solid;
-    border-width: 0px 0px 0px 0px;
-    box-sizing: border-box;
-    margin: 15px;
-    padding: 10px;
-}
 
 .l-desc {
     display: inline-block;
@@ -83,7 +75,7 @@ img {
     float: left;
     background-color: white;
     height: 300px;
-    width: 850px;
+    width: 700px;
     margin: 15px 15px 15px 15px;
     box-sizing: border-box;
     border: solid 1px black;
